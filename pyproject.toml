@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiport-interferometer"
+version = "0.0.1"
+description = "Automated multiport photonic interferometer circuit design and simulation tools."
+readme = "README.md"
+
+authors = [
+    {name = "Carl Abi Nakad"}
+]
+
+
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+
+requires-python = ">=3.11"
+
+dependencies = [
+    "numpy",
+    "sax",
+    "gdsfactory",
+    "cspdk",
+    "interferometer",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "scipy",
+    "build",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+multiport_interferometer = ["sax_models/*.pkl"]
+
+keywords = [
+    "photonics",
+    "integrated photonics",
+    "interferometer",
+    "MZI",
+    "SAX",
+    "gdsfactory",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+[project.urls]
+Homepage = "https://github.com/can-on-git/multiport-interferometer"
+Repository = "https://github.com/can-on-git/multiport-interferometer"
+Issues = "https://github.com/can-on-git/multiport-interferometer/issues"
