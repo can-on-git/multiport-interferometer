@@ -1,9 +1,8 @@
 # Multiport-Interferometer
 > This library provides a set of tools for designing multiport interferometer photonic circuits to emulate unitary transformations. Includes generation of complete circuit gds layout and steady-state power and phase simulations of multiport interferometers.
 
-[![PyPI version](https://img.shields.io/pypi/v/YOUR-PACKAGE.svg)](https://pypi.org/project/multiport-interferometer/)
-[![Python versions](https://img.shields.io/pypi/pyversions/YOUR-PACKAGE.svg)](https://pypi.org/project/multiport-interferometer/)
-[![License](https://img.shields.io/pypi/l/YOUR-PACKAGE.svg)](https://pypi.org/project/multiport-interferometer/)
+[![PyPI version](https://img.shields.io/pypi/v/multiport-interferometer.svg)](https://pypi.org/project/multiport-interferometer/)
+[![License](https://img.shields.io/pypi/l/multiport-interferometer.svg)](https://pypi.org/project/multiport-interferometer/)
 
 Some of the functionalities of the library:
 
