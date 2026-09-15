@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "multiport-interferometer"
-version = "0.0.1"
+version = "0.0.11"
 description = "Automated multiport photonic interferometer circuit design and simulation tools."
 readme = "README.md"
 
