@@ -82,9 +82,9 @@ Maximum Phase Error % =  8.080086688873948
 
 ### Clements Interferometer Logic Simulation
 ```sh
-mesh = Clements(dim)
+mesh = mi.Clements(dim)
 U = unitary_group.rvs(dim)
-simulation_result = sdict_to_matrix(mesh.ideal_emulate(U))
+simulation_result = mi.sdict_to_matrix(mesh.ideal_emulate(U))
 print('Circuit Matches Target Matrix =', np.allclose(U, simulation_result))
 ```
 ```text
