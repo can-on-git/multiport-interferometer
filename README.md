@@ -78,7 +78,7 @@ mymesh.gds().plot()
 Maximum Magnitude Error % = 9.225697420182325
 Maximum Phase Error % =  8.080086688873948
 ```
-![Mesh](https://github.com/can-on-git/multiport-interferometer/blob/main/docs/images/interferometer.png)
+![Mesh](https://github.com/can-on-git/multiport-interferometer/blob/main/docs/images/interferometer.png/)
 
 ### Clements Interferometer Logic Simulation
 ```sh
